@@ -1,0 +1,104 @@
+v2.6.01
+
+-Files Added-
+shields-flag-override.spec
+
+-Changes-
+bugfix: sextant.tilespec: fixed tundra layer2 match_type from typo 'waterx' to 'water'
+maintenance.txt: updated and included note to add override reference in shields-flag.spec
+maintenance.txt: added section for maintenance of shields-flag-override.spec
+shields-flag.spec: added shields-flag-override.spec inclusion to simplify adding override flags with shields-flag
+terrain2.spec: updated deprecated sprite reference syntax
+filelist.txt: updated
+===XU===
+
+-Files Added-
+hills-arctic.png
+hills-arctic.spec
+hills-desert.png
+hills-desert.spec
+hills-forest.png
+hills-forest.spec
+hills-jungle.png
+hills-jungle.spec
+hills-taiga.png
+hills-taiga.spec
+hills-tundra.png
+hills-tundra.spec
+mountains-arctic.png
+mountains-arctic.spec
+mountains-desert.png
+mountains-desert.spec
+mountains-tundra.png
+mountains-tundra.spec
+
+-Files Removed-
+hillsarctic.png
+hillsarctic.spec
+hillsdesert.png
+hillsdesert.spec
+hillsforest.png
+hillsforest.spec
+hillsjungle.png
+hillsjungle.spec
+hillstaiga.png
+hillstaiga.spec
+hillstundra.png
+hillstundra.spec
+mountainsarctic.png
+mountainsarctic.spec
+mountainsdesert.png
+mountainsdesert.spec
+mountainstundra.png
+mountainstundra.spec
+
+-Changes-
+bugfix: sextantXU.tilespec: fixed tundra layer2 match_type from typo 'waterx' to 'water'
+sextantXU.tilespec: changed layer2 match_type "icyhills" to "drifts"
+bog.spec: updated deprecated sprite reference syntax
+terrain4.spec: updated deprecated sprite reference syntax
+
+v2.6.00
+Upgraded to 2.6
+
+-Files Added-
+shields-flag.spec
+
+-Files Removed-
+flags.spec
+
+-Changes-
+activities.png: added farmland, irrigation, mine, oil_well, oil_rig sprites
+activities.spec: added farmland, irrigation, mine, oil_well, oil_rig sprite references
+flags.spec: renamed to shields-flag.spec
+maintenance.txt: updated and included note to remove override reference in shields-flag.spec
+terrain.png: added path sprites
+terrain.sped: referenced path sprites
+
+v2.5.04
+
+-Files Added-
+oldpatchnotes.txt
+
+-Changes-
+grid.png: city outlines are white again; retouched borders
+sextant.tilespec: large buildings and wonders now used
+patchnotes.txt: old patch notes moved to oldpatchnotes.txt
+
+===XU===
+
+-Terrains Added-
+drifts
+dunes
+
+-Terrains Removed-
+dryhills
+icyhills
+
+-Changes-
+sextantXU.tilespec: icyhills and dryhills terrains renamed
+sextantXU.tilespec: large buildings and wonders now used
+hillsarctic.spec: icyhills terrain renamed drifts
+hillsdesert.spec: dryhills terrain renamed dunes
+terrain3.spec: icyhills and dryhills terrains renamed
+terrain4.spec: icyhills and dryhills terrains renamed

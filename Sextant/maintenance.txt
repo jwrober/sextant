@@ -1,0 +1,27 @@
+-- Freeciv - Copyright (C) 2007 - The Freeciv Project
+--   This program is free software; you can redistribute it and/or modify
+--   it under the terms of the GNU General Public License as published by
+--   the Free Software Foundation; either version 2, or (at your option)
+--   any later version.
+--
+--   This program is distributed in the hope that it will be useful,
+--   but WITHOUT ANY WARRANTY; without even the implied warranty of
+--   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+--   GNU General Public License for more details.
+
+
+shields-flag.spec:
+ sextant/flags.spec is a copy of the one in misc/flags.spec with
+  the "f." entries replaced with "f.shield." for use as units shields
+
+ if new flags are added, the new misc/flags.spec can be copy/pasted into
+  data/sextant and the "f." entries replaced with "f.shield." entries
+  and the override at the bottom should be changed to:
+*include "sextant/shields-flag-override.spec"
+
+shields-flag-override.spec:
+ if override flags are added, the new override/flags.spec can be
+  copy/pasted, renamed to shields-flag-override.spec, and
+  cut/pasted into data/sextant and the "f." entries replaced with
+  "f.shield." entries
+

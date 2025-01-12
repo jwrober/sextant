@@ -1,0 +1,44 @@
+v2.5.03
+Bugfix: removed misc/shields file reference from tilespecs
+GTK2 Bug: Top-Right/Bottom-Left shoreside ocean corners not appearing(also in Trident, probable draw bug? R010 appears to be using R000[I assume left has the same issue]<Qt does not appear to have this issue><also not present in 2.5.4>)
+terrain.spec: referenced desert embellishments
+grid.png: replaced white and black grid lines with white-and-black, transparent, less invasive gridlines
+tilelist.txt: added
+terrain1.png: shore sprites altered to look like lake
+terrain2.png: shore corners altered to look like lake; 10 more saturation in coast tiles
+units.png: re-oriented units (combat all face right, non-combat all face left)
+
+XU-
+bog.png: added
+bog.spec: added
+hillsarctic.png: added
+hillsarctic.spec: added
+hillsdesert.png: added
+hillsdesert.spec: added
+hillsforest.png: added
+hillsforest.spec: added
+hillsjungle.png: added
+hillsjungle.spec: added
+hillstaiga.png: added
+hillstaiga.spec: added
+hillstundra.png: added
+hillstundra.spec: added
+mountainssarctic.png: added
+mountainssarctic.spec: added
+mountainsdesert.png: added
+mountainsdesert.spec: added
+mountainstundra.png: added
+mountainstundra.spec: added
+taiga.png: added
+taiga.spec: added
+terrain3.spec: added
+terrain4.spec: added
+
+v2.5.02
+units.png: Added with modified amplio2 units (48x60)
+units.spec: Added with unit references (from amplio2)
+terrain.png: Edited Outpost and Fortress sprites
+sextant.tilespec: Edited units references in tilespec
+
+v2.5.01
+Initial (un-)Release

@@ -1,0 +1,39 @@
+Sextant:
+
+Terrain - 
+coast
+floor
+lake
+inaccessible
+arctic
+desert
+forest
+grassland
+hills
+jungle
+mountains
+plains
+swamp
+tundra
+
+Roads - 
+road
+rail
+maglev
+highway
+river
+
+XU:
+
+Terrain -
+highlands [Frigid Highlands](tundra hills)
+rockies [Rocky Mountains](tundra mountains)
+drifts [Snow Drifts](arctic hills)
+glacier (arctic mountains)
+taiga (tundra forest)
+alpine [Alpine Timber](tundra forest hills)
+sylvan [Sylvan Uplands](forest hills)
+rainforest [Rainforest Plateau](jungle hills)
+dunes [Sand Dunes](desert hills)
+badlands (desert mountains)
+bog (watery swamp)
