@@ -1,0 +1,38 @@
+{
+  "info": {
+    "options": "+modpack-1.0",
+    "base_url": "https://raw.githubusercontent.com/jwrober/sextant/a7e4365739c675730cd943a8573873ffb1df6a38",
+    "name": "Sextant",
+    "type": "Tileset",
+    "version": "3.0.0"
+  },
+  "files": [
+    "Sextant.tilespec",
+    "Sextant/activities.png",
+    "Sextant/activities.spec",
+    "Sextant/cities.png",
+    "Sextant/cities.spec",
+    "Sextant/extras.png",
+    "Sextant/extras.spec",
+    "Sextant/fog.png",
+    "Sextant/fog.spec",
+    "Sextant/grid.png",
+    "Sextant/grid.spec",
+    "Sextant/nuke.png",
+    "Sextant/nuke.spec",
+    "Sextant/roads.png",
+    "Sextant/roads.spec",
+    "Sextant/select.png",
+    "Sextant/select.spec",
+    "Sextant/shields-flag-override.spec",
+    "Sextant/shields-flag.spec",
+    "Sextant/terrain2.png",
+    "Sextant/terrain2.spec",
+    "Sextant/terrain.png",
+    "Sextant/terrain.spec",
+    "Sextant/units.png",
+    "Sextant/units.spec",
+    "Sextant/upkeep.png",
+    "Sextant/upkeep.spec"
+  ]
+}
