@@ -1,10 +1,10 @@
 {
   "info": {
     "options": "+modpack-1.0",
-    "base_url": "https://raw.githubusercontent.com/jwrober/sextant/a7e4365739c675730cd943a8573873ffb1df6a38",
+    "base_url": "https://raw.githubusercontent.com/jwrober/sextant/4475373343891eb3ef655ff1ac657d4b82bb068b",
     "name": "Sextant",
     "type": "Tileset",
-    "version": "3.0.0"
+    "version": "3.1.0"
   },
   "files": [
     "Sextant.tilespec",
