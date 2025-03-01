@@ -61,7 +61,7 @@ activity_offset_x = 0
 activity_offset_y = 0
 
 ; offset the cities by this amount
-city_offset_x = 0
+city_offset_x = -10
 city_offset_y = 0
 
 ; offset the city size number by this amount
